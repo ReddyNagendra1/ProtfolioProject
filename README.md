@@ -45,7 +45,7 @@ The project is divided into two main parts: the frontend (React) and the backend
 ### Frontend (React)
 
 - **/src**: Contains all the React components and styles.
-  - **components**: Reusable UI components like `Header`, `Footer`, `Resume`, and `ProjectList`.
+  - **components**: Reusable UI components like `Header`,`Contact` `Footer`, `Resume`, and `Projects`.
   - **pages**: Specific pages like `Home`, `Resume`, and `Projects`.
   - **App.js**: The main application file that integrates all components.
   - **Resume.js**: Handles the display of my resume, fetching data from the backend API.
@@ -53,9 +53,11 @@ The project is divided into two main parts: the frontend (React) and the backend
 ### Backend (Node.js + Express)
 
 - **/routes**: Defines the API routes for fetching data.
+-  - **/api/projects.js**: Route for fetching projects data
   - **/api/education.js**: Route for fetching education data.
   - **/api/experience.js**: Route for fetching work experience data.
 - **/models**: Mongoose schemas for the MongoDB collections.
+  - **Projects.js**: Schema for storing projects.
   - **Education.js**: Schema for storing educational background.
   - **Experience.js**: Schema for storing work experience.
 - **server.js**: The main server file that initializes the Express app and sets up routes.
