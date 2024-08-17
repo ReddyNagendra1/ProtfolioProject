@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-circle {
+  width: 30px;
+  height: 30px;
+  background-color: #ffa500;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.logo-title {
+  font-size: 14px;
+  color: #666;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  margin-top: 40px;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-content {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.home h1 {
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+
+.home h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons a {
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.resume-btn {
+  background-color: #ffa500;
+  color: white;
+}
+
+.projects-btn {
+  background-color: #ff4500;
+  color: white;
+}
+
+.contact-btn,
+.submit-btn {
+  background-color: #00ced1;
+  color: white;
+}
+
+.profile-image {
+  flex: 1;
+  text-align: right;
+}
+
+.profile-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.resume,
+.projects,
+.contact {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.resume h1,
+.projects h1,
+.contact h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.job {
+  margin-bottom: 30px;
+}
+
+.job h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.job p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contact form {
+  display: grid;
+  gap: 20px;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact textarea {
+  height: 150px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #666;
+}
