@@ -8,7 +8,6 @@ Welcome to my Portfolio Project! This project showcases my skills, experience, a
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
-- [Backend API](#backend-api)
 
 ## Overview
 
